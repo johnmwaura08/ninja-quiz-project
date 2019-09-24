@@ -10,8 +10,12 @@
 
     //check answers
 
-    userAnswers.forEach((answer,index))
+    userAnswers.forEach((answer,index) =>{
+        if(answer === correctAnswers[index]){
+            score += 25;
+        }
+    });
 
-
+    console.log(score);
 
  } );
