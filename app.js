@@ -17,6 +17,7 @@
         }
     });
 //show result on page
+scrollTo(0,0);
 result.querySelector('span').textContent = `${score}%`; // this gets us the span in the result div
 result.classList.remove('d-none'); //we're now removing the d-none class which hides the result section. 
 //we dont have an onlcick because thesubmit is the eventlistner
@@ -24,3 +25,6 @@ result.classList.remove('d-none'); //we're now removing the d-none class which h
 
 
  } );
+
+ //window object (global object)
+ //scroll method
